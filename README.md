@@ -1,6 +1,8 @@
 # rust_dma
 a rust dma base, has no fall, fake admin, no recoil
 
+____________________________________________________
+
 MIT License
 
 Copyright (c) 2023 konstantin
