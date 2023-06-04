@@ -181,7 +181,7 @@ namespace rust
 	public:
 		auto get_recoil_properties() -> uint64_t
 		{
-			auto recoil_properties = threads::read<int>(reinterpret_cast<uint64_t>(this) + offsets::item::held_entity);
+			auto recoil_properties = threads::read<uint64_t>(reinterpret_cast<uint64_t>(this) + offsets::item::held_entity);
 			if (!recoil_properties) return 0;
 
 			auto override = threads::read<uint64_t>(recoil_properties + offsets::recoil_properties::override);
