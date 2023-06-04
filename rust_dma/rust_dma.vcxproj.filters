@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="entry">
+      <UniqueIdentifier>{9eb0e517-bfdc-4fae-b16e-005d445b7e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{31e5dac7-2dca-4b0e-b380-827e0d1de429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threads">
+      <UniqueIdentifier>{e24eda06-0b55-402c-ae93-b57f766987bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="globals">
+      <UniqueIdentifier>{d2841a06-f955-4ad6-95f2-e5d6727a1e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{c3ab72ca-fcfa-44e1-a529-3c9d94d0f773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rust">
+      <UniqueIdentifier>{266f1d41-1698-4db5-8a0b-581130c624ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="threads.cpp">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entry.hpp">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\vmmdll.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="threads.hpp">
+      <Filter>threads</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>globals</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\dokan.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\fileinfo.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\leechcore.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\leechcore_device.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\libpdbcrust.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\public.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\vmmyara.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="rust.hpp">
+      <Filter>rust</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

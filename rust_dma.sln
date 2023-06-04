@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rust_dma", "rust_dma\rust_dma.vcxproj", "{073130AA-021A-44C3-B20E-3642D029A106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073130AA-021A-44C3-B20E-3642D029A106}.Debug|x64.ActiveCfg = Debug|x64
+		{073130AA-021A-44C3-B20E-3642D029A106}.Debug|x64.Build.0 = Debug|x64
+		{073130AA-021A-44C3-B20E-3642D029A106}.Debug|x86.ActiveCfg = Debug|Win32
+		{073130AA-021A-44C3-B20E-3642D029A106}.Debug|x86.Build.0 = Debug|Win32
+		{073130AA-021A-44C3-B20E-3642D029A106}.Release|x64.ActiveCfg = Release|x64
+		{073130AA-021A-44C3-B20E-3642D029A106}.Release|x64.Build.0 = Release|x64
+		{073130AA-021A-44C3-B20E-3642D029A106}.Release|x86.ActiveCfg = Release|Win32
+		{073130AA-021A-44C3-B20E-3642D029A106}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3BED6F6-2DFB-49E5-A478-B5964E771AEC}
+	EndGlobalSection
+EndGlobal
